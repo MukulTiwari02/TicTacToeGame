@@ -87,9 +87,9 @@ body{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 50%;
     position: fixed;
-    /* transition-duration: 50ms; */
+    transition-duration: 100ms;
     transition-timing-function: ease-out;
-    animation: resize1 .3s ease-out 0s infinite alternate;
+    /* animation: resize1 .3s ease-out 0s infinite alternate; */
     pointer-events: none;
 }
 
@@ -112,7 +112,7 @@ body{
     position: absolute;
     top:-20px;
     left:-20px;
-    animation: resize2 .3s ease-out 0s infinite alternate;
+    /* animation: resize2 .3s ease-out 0s infinite alternate; */
 }
 
 @keyframes resize2{
